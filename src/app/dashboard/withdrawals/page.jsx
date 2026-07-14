@@ -16,10 +16,17 @@ export default function WithdrawalsPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState('');
 
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || 
-  (typeof window !== 'undefined' && window.location.hostname.includes('vercel.app') 
-    ? 'https://bluecrown-server-with-openai.vercel.app/api' 
-    : 'http://localhost:5000/api');
+  let rawApiUrl = process.env.NEXT_PUBLIC_API_URL || 
+    (typeof window !== 'undefined' && window.location.hostname.includes('vercel.app') 
+      ? 'https://bluecrown-server-with-openai.vercel.app/api' 
+      : 'http://localhost:5000/api');
+  if (rawApiUrl.endsWith('/')) {
+    rawApiUrl = rawApiUrl.slice(0, -1);
+  }
+  if (!rawApiUrl.endsWith('/api')) {
+    rawApiUrl += '/api';
+  }
+  const API_URL = rawApiUrl;
 
   if (!user) return null;
 
