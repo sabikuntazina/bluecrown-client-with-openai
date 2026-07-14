@@ -8,7 +8,10 @@ export default function WithdrawalRequestsPage() {
   const [requests, setRequests] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+  const API_URL = process.env.NEXT_PUBLIC_API_URL || 
+  (typeof window !== 'undefined' && window.location.hostname.includes('vercel.app') 
+    ? 'https://bluecrown-server-with-openai.vercel.app/api' 
+    : 'http://localhost:5000/api');
 
   const fetchWithdrawals = async () => {
     try {
