@@ -22,16 +22,16 @@ The platform provides separate experiences for **Supporters, Creators, and Admin
 ![BlueCrown Home Page](./home.png)
 
 ### 🚀 Campaigns
-![Campaigns Page](/campaigns.png)
+![Campaigns Page](./campaigns.png)
 
 ### 👤 Supporter Dashboard
-![Supporter Dashboard](/supporter-dashboard.png)
+![Supporter Dashboard](./supporter-dashboard.png)
 
 ### 🧑‍💻 Creator Dashboard
-![Creator Dashboard](/creator-dashboard.png)
+![Creator Dashboard](./creator-dashboard.png)
 
 ### 🛡️ Admin Dashboard
-![Admin Dashboard](/admin-dashboard.png)
+![Admin Dashboard](./admin-dashboard.png)
 
 ## ✨ Key Features
 
