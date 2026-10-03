@@ -4,19 +4,10 @@
 
 The platform provides separate experiences for **Supporters, Creators, and Admins**, with role-based authorization and dedicated dashboards for each user type.
 
-## 🌐 Live Website
-
-**Live Site:** `https://bluecrown-client-with-openai.vercel.app/`
-
-## 🔐 Admin Credentials
-
-**Admin Email:** `admin@bluecrown.com`
-**Admin Password:** `admin123`
-
-> Please use the above credentials to explore the Admin Dashboard and its features.
-
 ---
-## 📸 Screenshots
+## 🚀 Project Demo
+
+🔗 Live URL: https://life-atlas-client.vercel.app/
 
 ### 🏠 Home Page
 <img src="public/home.png" alt="Home Page" width="900">
@@ -35,6 +26,13 @@ The platform provides separate experiences for **Supporters, Creators, and Admin
 
 ### 🛡️ Admin Dashboard
 <img src="public/admin-dashboard.png" alt="admin-dashboard" width="900">
+
+## 🔐 Admin Credentials
+
+**Admin Email:** `admin@bluecrown.com`
+**Admin Password:** `admin123`
+
+> Please use the above credentials to explore the Admin Dashboard and its features.
 
 ## ✨ Key Features
 
