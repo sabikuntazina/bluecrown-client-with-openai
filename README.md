@@ -30,10 +30,11 @@ The platform provides separate experiences for **Supporters, Creators, and Admin
 
 
 ### 🧑‍💻 Creator Dashboard
-![Creator Dashboard](./creator-dashboard.png)
+<img src="public/creator-dashboard.png" alt="creator-dashboard" width="900">
+
 
 ### 🛡️ Admin Dashboard
-![Admin Dashboard](./admin-dashboard.png)
+<img src="public/admin-dashboard.png" alt="admin-dashboard" width="900">
 
 ## ✨ Key Features
 
