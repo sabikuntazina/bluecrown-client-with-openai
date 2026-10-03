@@ -8,7 +8,7 @@ import { FaCoins } from 'react-icons/fa';
 
 export default function Navbar() {
   const { user, logout } = useAuth();
-  const repoUrl = 'https://github.com/sabikuntazina/bluecrown-client';
+  
 
   return (
     <div className="sticky top-0 z-50 navbar glass-panel shadow-sm px-4 md:px-8 border-b border-slate-200/50">
@@ -48,16 +48,7 @@ export default function Navbar() {
                 </Link>
               </li>
             )}
-            <li>
-              <a
-                href={repoUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 py-2 text-indigo-600 font-semibold"
-              >
-                <FiGithub /> Join as Developer
-              </a>
-            </li>
+            
           </ul>
         </div>
 
@@ -103,15 +94,7 @@ export default function Navbar() {
           </div>
         )}
 
-        {/* Join as Developer Button */}
-        <a
-          href={repoUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn btn-outline btn-primary btn-sm hidden sm:flex gap-1.5 rounded-full hover:scale-105 transition-transform"
-        >
-          <FiGithub /> Join as Developer
-        </a>
+      
 
         {/* Auth Actions */}
         {!user ? (
