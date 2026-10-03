@@ -19,13 +19,15 @@ The platform provides separate experiences for **Supporters, Creators, and Admin
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![BlueCrown Home Page](./home.png)
+<img src="public/home.png" alt="Home Page" width="900">
 
 ### 🚀 Campaigns
-![Campaigns Page](./campaigns.png)
+<img src="public/campaigns.png" alt="Campaigns" width="900">
+
 
 ### 👤 Supporter Dashboard
-![Supporter Dashboard](./supporter-dashboard.png)
+<img src="public/supporter-dashboard.png" alt="upporter-dashboard" width="900">
+
 
 ### 🧑‍💻 Creator Dashboard
 ![Creator Dashboard](./creator-dashboard.png)
